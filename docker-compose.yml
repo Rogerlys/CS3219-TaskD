@@ -31,7 +31,7 @@ services:
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:19092
-      KAFKA_ZOOKEEPER_CONNECT: localhost:22181,localhost:32181,localhost:42181
+      KAFKA_ZOOKEEPER_CONNECT: localhost:22181,localhost:32181
 
 
   kafka-2:
@@ -43,7 +43,7 @@ services:
     environment:
       KAFKA_BROKER_ID: 2
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:29092
-      KAFKA_ZOOKEEPER_CONNECT: localhost:22181,localhost:32181,localhost:42181
+      KAFKA_ZOOKEEPER_CONNECT: localhost:22181,localhost:32181
 
 
   kafka-3:
@@ -55,4 +55,4 @@ services:
     environment:
       KAFKA_BROKER_ID: 3
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:39092
-      KAFKA_ZOOKEEPER_CONNECT: localhost:22181,localhost:32181,localhost:42181
+      KAFKA_ZOOKEEPER_CONNECT: localhost:22181,localhost:32181
